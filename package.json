@@ -12,8 +12,8 @@
     "postinstall": "ng build --aot -prod"
   },
   "engines": {
-    "node": "6.9.2",
-    "npm": "3.10.9"
+    "node": "6.9.4",
+    "npm": "3.10.10"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +21,7 @@
     "@angular/cli": "^1.4.3",
     "@angular/common": "^4.2.4",
     "@angular/compiler": "^4.2.4",
+    "@angular/compiler-cli": "^4.4.6",
     "@angular/core": "^4.2.4",
     "@angular/forms": "^4.2.4",
     "@angular/http": "^4.2.4",
@@ -30,7 +31,10 @@
     "core-js": "^2.4.1",
     "express": "^4.16.2",
     "rxjs": "^5.4.2",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.8.14",
+    "typescript": "~2.0.0",
+    "ts-node": "1.2.1",
+    "tslint": "^4.3.0"
   },
   "devDependencies": {
     "@angular/cli": "1.4.3",
